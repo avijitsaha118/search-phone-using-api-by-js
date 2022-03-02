@@ -1,2 +1,24 @@
 /* font styles */
 body{font-family: 'Poppins', sans-serif;}
+
+/* body */
+
+#style{
+    background-color: #CCE8DD;
+    padding: 0;
+    margin: 0;
+}
+
+/* heading section */
+
+#heading-style{
+    color: white;
+}
+
+/* button */
+
+#features-button{
+    width: 30%;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+}
