@@ -18,7 +18,9 @@ body{font-family: 'Poppins', sans-serif;}
 /* button */
 
 #features-button{
-    width: 30%;
+    width: 32%;
     border-radius: 5px;
-    background-color: lightsteelblue;
+    background-color: #d83179;
+    padding: 4px;
+    color: white;
 }
