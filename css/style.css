@@ -4,7 +4,7 @@ body{font-family: 'Poppins', sans-serif;}
 /* body */
 
 #style{
-    background-color: #CCE8DD;
+    background-color: #358597;
     padding: 0;
     margin: 0;
 }
@@ -12,15 +12,23 @@ body{font-family: 'Poppins', sans-serif;}
 /* heading section */
 
 #heading-style{
-    color: white;
+    color: #F4A896;
 }
 
-/* button */
+/* button design */
 
 #features-button{
+    background-color: #F4A896;
+    color: white;
     width: 32%;
     border-radius: 5px;
-    background-color: #d83179;
     padding: 4px;
+}
+
+#search-button{
+    background-color: #F4A896;
     color: white;
+    font-weight: bold ;
+    width: 35%;
+    border-radius: 8px;
 }

@@ -9,7 +9,7 @@ document.getElementById('search-button').addEventListener('click', () => {
         .then(data => displayPhone(data.data))
 })
 
-// display phones by searching
+// display phones by search
 
 const displayPhone = data => {
     const searchResult = document.getElementById('search-result');
