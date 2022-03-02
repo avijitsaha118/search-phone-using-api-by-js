@@ -16,7 +16,7 @@ const displayPhone = data => {
     searchResult.textContent = "";
     document.getElementById('display-details').textContent = "";
     if (data.length === 0) {
-        alert('Stock Out!');
+        alert('This phone is not found!');
     }
     else {
         data.slice(0, 20).forEach(element => {
@@ -54,7 +54,7 @@ const displayPhoneDetails = phoneId => {
     const div = document.createElement('div');
     div.classList.add('col');
     if (!phoneId.others) {
-        alert("Full features are not available for this device");
+        alert("Full features are not available for this device!");
     }
     else {
         div.innerHTML = `
