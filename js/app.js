@@ -1,4 +1,4 @@
-// load phones from api
+// fetch and load phones from api
 document.getElementById('search-button').addEventListener('click', () => {
     const searchField = document.getElementById('search-phone');
     const searchText = searchField.value;
@@ -16,7 +16,7 @@ const displayPhone = data => {
     searchResult.textContent = "";
     document.getElementById('display-details').textContent = "";
     if (data.length === 0) {
-        alert('This phone is not found!');
+        alert('Phone not found!');
     }
     else {
         data.slice(0, 20).forEach(element => {
@@ -46,7 +46,6 @@ const showPhoneDetails = phoneId => {
 }
 
 // dislay phone details
-
 
 const displayPhoneDetails = phoneId => {
     const phoneDetails = document.getElementById('display-details');
